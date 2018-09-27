@@ -15,10 +15,10 @@ gem 'puma', '~> 3.11'
 gem 'redis', '~> 4.0'
 
 gem 'bootsnap', '>= 1.1.0', require: false
-gem 'message-bus'
-
 gem 'omniauth'
 gem 'devise_token_auth'
+gem 'message_bus'
+
 group :development, :test do
   gem 'pry'
 
